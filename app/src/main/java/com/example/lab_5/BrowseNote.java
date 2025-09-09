@@ -31,10 +31,10 @@ public class BrowseNote extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        /*etName = findViewById(R.id.editTextText2);
+        etName = findViewById(R.id.editTextText2);
         btnSearch = findViewById(R.id.button3);
         tvResult = findViewById(R.id.textView2);
-        progressBar = findViewById(R.id.progressBar);*/
+        progressBar = findViewById(R.id.progressBar);
 
         progressBar.setVisibility(View.GONE);
 
